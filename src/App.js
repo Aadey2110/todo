@@ -38,7 +38,7 @@ function App() {
             setTodo((todo) => e.target.value);
           }}
           onKeyDown={(e) => {
-            if (e.key == "Enter") {
+            if (e.key === "Enter") {
               handleAddTodo(todo);
             }
           }}

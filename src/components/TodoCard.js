@@ -9,6 +9,7 @@ export default function GetCard(props) {
       >
         <img
           src="https://em-content.zobj.net/source/toss-face/381/wastebasket_1f5d1-fe0f.png"
+          alt="delete"
           height="40px"
         />
       </button>
