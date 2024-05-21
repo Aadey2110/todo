@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(157, 149, 140);
+}
+
+.App {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.App h1 {
+  font-size: 7rem;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+}
+
+.add-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 18px;
+  align-items: stretch;
+}
+
+.inp-add-todo {
+  height: 30px;
+  min-width: 870px;
+  padding: 19px;
+  font-size: medium;
+}
+
+.btn {
+  font-size: 30px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: 0px solid black;
+  min-width: 50px;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.empty-error {
+  color: red;
+}
+
+.todo-list {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.card {
+  margin: auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.remove-btn {
+  font-size: 30px;
+  padding: 0px 20px;
+  background-color: rgba(240, 248, 255, 0);
+}
+
+.remove-btn:hover {
+  background-color: rgba(240, 248, 255, 0);
+}
